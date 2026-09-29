@@ -13,7 +13,7 @@ def generate_response(prompt):
     }
 
     payload = {
-        "model": "llama-3.3-70b-versatile",
+        "model": "openai/gpt-oss-120b", # Updated to a currently active model ID
         "messages": [
             {
                 "role": "system",
